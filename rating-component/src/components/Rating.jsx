@@ -10,7 +10,7 @@ const Rating = () => {
   };
 
   return (
-    <section className="text-white bg-dark-blue bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.4)] min-w-[300px] max-w-[500px] min-h-[420px] sm:w-[450px] m-8 rounded-xl sm:rounded-3xl p-8 flex flex-col gap-4">
+    <section className="text-white bg-dark-blue bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.4)] min-w-[300px] max-w-[500px] h-[420px] sm:w-[450px] m-8 rounded-xl sm:rounded-3xl p-8 flex flex-col gap-4">
       {submited ? (
         <SelectedRating rating={rating} />
       ) : (
