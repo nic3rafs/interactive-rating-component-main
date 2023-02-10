@@ -14,6 +14,7 @@ The component uses a functional component structure, using hooks to manage the c
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
     - [Links](#links)
+    - [Run](#run)
   - [My process](#my-process)
     - [Built with](#built-with)
   - [Author](#author)
@@ -40,6 +41,13 @@ Users should be able to:
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+### Run
+
+1. Clone repo
+2. Go to project folder ```cd rating-component``` 
+3. Instal dependencies `npm i`
+4. Run on local machine `npm run dev`
 
 ## My process
 
