@@ -6,6 +6,8 @@ A simple and clean **React** component for collecting user ratings. It utilizes 
 
 The component uses a functional component structure, using hooks to manage the component state. The component makes use of two sub-components SelectRating and SelectedRating to handle the different states of the component. The styles applied to the component are done with the use of **Tailwind CSS** classes, which makes it easy to customize the look and feel.
 
+**NOTE: The component itself is in `rating-component/src/components` folder**
+
 ## Table of contents
 
 - [Interactive rating component with React and Tailwind](#interactive-rating-component-with-react-and-tailwind)
@@ -19,7 +21,6 @@ The component uses a functional component structure, using hooks to manage the c
     - [Built with](#built-with)
   - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -39,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+<!-- - Solution URL: [Add solution URL here](https://your-solution-url.com) -->
+- Live Site URL: [link](https://interactive-rating-component-main-woad.vercel.app/)
 
 ### Run
 
