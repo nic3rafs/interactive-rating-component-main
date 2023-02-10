@@ -10,7 +10,7 @@ const Rating = () => {
   };
 
   return (
-    <section className="text-white bg-dark-blue bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.4)] min-w-[300px] max-w-[500px] min-h-[420px] sm:w-[450px] m-8 rounded-xl sm:rounded-3xl p-7 flex flex-col gap-4">
+    <section className="text-white bg-dark-blue bg-gradient-to-b from-[rgba(0,0,0,0)] to-[rgba(0,0,0,0.4)] min-w-[300px] max-w-[500px] min-h-[420px] sm:w-[450px] m-8 rounded-xl sm:rounded-3xl p-8 flex flex-col gap-4">
       {submited ? (
         <SelectedRating rating={rating} />
       ) : (
@@ -26,8 +26,8 @@ const Rating = () => {
 
 const SelectRating = ({ rating, handleSubmit, setRating }) => (
   <>
-    <div className="bg-medium-gray-transparent rounded-full w-max p-3">
-      <img src={iconStar} className="opacity-100"></img>
+    <div className="bg-medium-gray-transparent rounded-full w-max p-4">
+      <img src={iconStar} alt="Star icon" className="opacity-100"></img>
     </div>
     <h1 className=" font-bold text-2xl">How did we do?</h1>
     <p className="text-lg text-light-gray">
@@ -62,7 +62,7 @@ const SelectRating = ({ rating, handleSubmit, setRating }) => (
 
 const SelectedRating = ({ rating }) => (
   <div className="flex flex-col items-center justify-center text-center gap-8">
-    <img className="w-[50%] pt-4" src={illustrationThankYou}></img>
+    <img className="w-[50%] pt-4" alt="Illustration" src={illustrationThankYou}></img>
     <p className="bg-medium-gray-transparent text-orange text-sm px-4 pt-2 pb-1 rounded-full">
       You selected {rating} out of 5
     </p>
